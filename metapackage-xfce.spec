@@ -80,6 +80,8 @@ Requires:	xfce4-xfapplet-plugin >= 0.1.0
 Requires:	xfce4-xkb-plugin >= 0.4.3
 Requires:	xfce4-xmms-plugin >= 0.5.1
 
+%prep
+
 %description panel-plugins
 Metapackage to install panel plugins for Xfce desktop environment.
 
