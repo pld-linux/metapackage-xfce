@@ -1,5 +1,5 @@
 Summary:	Xfce desktop environment
-Summary(pl.UTF-8):   Środowisko graficzne Xfce
+Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.4.0
 Release:	1
@@ -34,7 +34,7 @@ Metapakiet środowiska graficznego Xfce.
 
 %package extras
 Summary:	Additional packages for Xfce desktop environment
-Summary(pl.UTF-8):   Dodatkowe pakiety dla środowiska graficznego Xfce
+Summary(pl.UTF-8):	Dodatkowe pakiety dla środowiska graficznego Xfce
 Group:		X11/Applications
 Requires:	Thunar-archive-plugin >= 0.2.4
 Requires:	Xarchiver >= 0.4.6
@@ -53,7 +53,7 @@ Xfce.
 
 %package panel-plugins
 Summary:	Panel plugins for Xfce desktop environment
-Summary(pl.UTF-8):   Wtyczki panelu środowiska graficznego Xfce
+Summary(pl.UTF-8):	Wtyczki panelu środowiska graficznego Xfce
 Group:		X11/Applications
 Requires:	xfce4-battery-plugin >= 0.5.0
 Requires:	xfce4-clipman-plugin >= 0.8.0
