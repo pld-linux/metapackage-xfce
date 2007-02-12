@@ -1,5 +1,5 @@
 Summary:	Xfce desktop environment
-Summary(pl):	¦rodowisko graficzne Xfce
+Summary(pl.UTF-8):   Åšrodowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.4.0
 Release:	1
@@ -29,12 +29,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Xfce desktop environment metapackage.
 
-%description -l pl
-Metapakiet ¶rodowiska graficznego Xfce.
+%description -l pl.UTF-8
+Metapakiet Å›rodowiska graficznego Xfce.
 
 %package extras
 Summary:	Additional packages for Xfce desktop environment
-Summary(pl):	Dodatkowe pakiety dla ¶rodowiska graficznego Xfce
+Summary(pl.UTF-8):   Dodatkowe pakiety dla Å›rodowiska graficznego Xfce
 Group:		X11/Applications
 Requires:	Thunar-archive-plugin >= 0.2.4
 Requires:	Xarchiver >= 0.4.6
@@ -47,13 +47,13 @@ Requires:	xfmedia-plugins >= 0.9.2
 Metapackage to install additional packages for Xfce desktop
 environment.
 
-%description extras -l pl
-Metapakiet instaluj±cy dodatkowe pakiety dla ¶rodowiska graficznego
+%description extras -l pl.UTF-8
+Metapakiet instalujÄ…cy dodatkowe pakiety dla Å›rodowiska graficznego
 Xfce.
 
 %package panel-plugins
 Summary:	Panel plugins for Xfce desktop environment
-Summary(pl):	Wtyczki panelu ¶rodowiska graficznego Xfce
+Summary(pl.UTF-8):   Wtyczki panelu Å›rodowiska graficznego Xfce
 Group:		X11/Applications
 Requires:	xfce4-battery-plugin >= 0.5.0
 Requires:	xfce4-clipman-plugin >= 0.8.0
@@ -85,8 +85,8 @@ Requires:	xfce4-xmms-plugin >= 0.5.1
 %description panel-plugins
 Metapackage to install panel plugins for Xfce desktop environment.
 
-%description panel-plugins -l pl
-Metapakiet instaluj±cy wtyczki panelu ¶rodowiska graficznego Xfce.
+%description panel-plugins -l pl.UTF-8
+Metapakiet instalujÄ…cy wtyczki panelu Å›rodowiska graficznego Xfce.
 
 %files
 %files extras
