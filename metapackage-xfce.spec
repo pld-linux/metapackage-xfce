@@ -1,28 +1,28 @@
 Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
-Version:	4.4.2
+Version:	4.4.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Requires:	Terminal >= 0.2.8
-Requires:	Thunar >= 0.9.0
-Requires:	gtk-xfce-engine >= 2.4.2
-Requires:	mousepad >= 0.2.13
-Requires:	orage >= 4.4.2
-Requires:	xfce-mcs-manager >= 4.4.2
-Requires:	xfce-mcs-plugins >= 4.4.2
+Requires:	Terminal >= 0.2.8.3
+Requires:	Thunar >= 0.9.3
+Requires:	gtk-xfce-engine >= 2.4.3
+Requires:	mousepad >= 0.2.14
+Requires:	orage >= 4.4.3
+Requires:	xfce-mcs-manager >= 4.4.3
+Requires:	xfce-mcs-plugins >= 4.4.3
 Requires:	xfce-preferred-applications >= 0.3.4
-Requires:	xfce-utils >= 4.4.2
-Requires:	xfce4-appfinder >= 4.4.2
-Requires:	xfce4-icon-theme >= 4.4.2
-Requires:	xfce4-mixer >= 4.4.2
-Requires:	xfce4-panel >= 4.4.2
-Requires:	xfce4-session >= 4.4.2
-Requires:	xfdesktop >= 4.4.2
-Requires:	xfprint >= 4.4.2
-Requires:	xfwm4 >= 4.4.2
-Requires:	xfwm4-themes >= 4.4.2
+Requires:	xfce-utils >= 4.4.3
+Requires:	xfce4-appfinder >= 4.4.3
+Requires:	xfce4-icon-theme >= 4.4.3
+Requires:	xfce4-mixer >= 4.4.3
+Requires:	xfce4-panel >= 4.4.3
+Requires:	xfce4-session >= 4.4.3
+Requires:	xfdesktop >= 4.4.3
+Requires:	xfprint >= 4.4.3
+Requires:	xfwm4 >= 4.4.3
+Requires:	xfwm4-themes >= 4.4.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -37,8 +37,8 @@ Summary:	Additional packages for Xfce desktop environment
 Summary(pl.UTF-8):	Dodatkowe pakiety dla środowiska graficznego Xfce
 Group:		X11/Applications
 Requires:	Thunar-volman >= 0.2.0
-Requires:	Xarchiver >= 0.4.6
-Requires:	ristretto >= 0.0.14
+Requires:	Xarchiver >= 0.5.2
+Requires:	ristretto >= 0.0.21
 Requires:	xfce4-artwork >= 0.1
 Requires:	xfce4-taskmanager >= 0.3.2
 Requires:	xfmedia >= 0.9.2
