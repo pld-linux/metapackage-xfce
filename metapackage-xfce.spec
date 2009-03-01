@@ -41,6 +41,7 @@ Requires:	Xarchiver >= 0.5.2
 Requires:	ristretto >= 0.0.21
 Requires:	xfburn >= 0.4.1
 Requires:	xfce4-artwork >= 0.1
+Requires:	xfce4-power-manager >= 0.6.2
 Requires:	xfce4-taskmanager >= 0.4.1
 Requires:	xfmedia >= 0.9.2
 Requires:	xfmedia-plugins >= 0.9.2
