@@ -1,28 +1,28 @@
 Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
-Version:	4.6.0
+Version:	4.6.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Requires:	Terminal >= 0.2.10
-Requires:	Thunar >= 1.0.0
+Requires:	Terminal >= 0.2.12
+Requires:	Thunar >= 1.0.1
 Requires:	gtk-xfce-engine >= 2.6.0
 Requires:	mousepad >= 0.2.16
-Requires:	orage >= 4.6.0
-Requires:	xfce-preferred-applications >= 0.3.100
-Requires:	xfce-utils >= 4.6.0
-Requires:	xfce4-appfinder >= 4.6.0
+Requires:	orage >= 4.6.1
+Requires:	xfce-preferred-applications >= 0.3.101
+Requires:	xfce-utils >= 4.6.1
+Requires:	xfce4-appfinder >= 4.6.1
 Requires:	xfce4-icon-theme >= 4.4.3
-Requires:	xfce4-mixer >= 4.6.0
-Requires:	xfce4-panel >= 4.6.0
-Requires:	xfce4-session >= 4.6.0
-Requires:	xfce4-settings >= 4.6.0
-Requires:	xfconf >= 4.6.0
-Requires:	xfdesktop >= 4.6.0
-Requires:	xfprint >= 4.6.0
-Requires:	xfwm4 >= 4.6.0
-Requires:	xfwm4-themes >= 4.6.0
+Requires:	xfce4-mixer >= 4.6.1
+Requires:	xfce4-panel >= 4.6.1
+Requires:	xfce4-session >= 4.6.1
+Requires:	xfce4-settings >= 4.6.1
+Requires:	xfconf >= 4.6.1
+Requires:	xfdesktop >= 4.6.1
+Requires:	xfprint >= 4.6.1
+Requires:	xfwm4 >= 4.6.1
+Requires:	xfwm4-themes >= 4.6.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
