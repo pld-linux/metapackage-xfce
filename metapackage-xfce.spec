@@ -86,7 +86,7 @@ Requires:	xfce4-wavelan-plugin >= 0.5.4
 Requires:	xfce4-weather-plugin >= 0.6.2
 Requires:	xfce4-xfapplet-plugin >= 0.1.0
 Requires:	xfce4-xkb-plugin >= 0.5.3.2
-Requires:	xfce4-xmms-plugin >= 0.5.2
+Requires:	xfce4-playercontrol-plugin >= 0.3.0
 
 %description panel-plugins
 Metapackage to install panel plugins for Xfce desktop environment.
