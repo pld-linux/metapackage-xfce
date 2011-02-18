@@ -1,27 +1,25 @@
 Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
-Version:	4.6.2
+Version:	4.8.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Requires:	Terminal >= 0.2.12
-Requires:	Thunar >= 1.0.2
-Requires:	gtk-xfce-engine >= 2.6.0
+Requires:	Terminal >= 0.4.6
+Requires:	Thunar >= 1.2.1
+Requires:	gtk-xfce-engine >= 2.8.0
 Requires:	mousepad >= 0.2.16
-Requires:	orage >= 4.6.1
-Requires:	xfce-preferred-applications >= 0.3.107
-Requires:	xfce-utils >= 4.6.2
-Requires:	xfce4-appfinder >= 4.6.2
-Requires:	xfce4-icon-theme >= 4.4.3
+Requires:	orage >= 4.8.0
+Requires:	xfce-preferred-applications >= 0.6.0
+Requires:	xfce-utils >= 4.8.1
+Requires:	xfce4-appfinder >= 4.8.0
 Requires:	xfce4-mixer >= 4.6.1
-Requires:	xfce4-panel >= 4.6.4
-Requires:	xfce4-session >= 4.6.2
-Requires:	xfce4-settings >= 4.6.5
-Requires:	xfconf >= 4.6.2
-Requires:	xfdesktop >= 4.6.2
-Requires:	xfprint >= 4.6.1
-Requires:	xfwm4 >= 4.6.2
+Requires:	xfce4-panel >= 4.8.1
+Requires:	xfce4-session >= 4.8.0
+Requires:	xfce4-settings >= 4.8.1
+Requires:	xfconf >= 4.8.0
+Requires:	xfdesktop >= 4.8.1
+Requires:	xfwm4 >= 4.8.1
 Requires:	xfwm4-themes >= 4.6.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -36,17 +34,15 @@ Metapakiet środowiska graficznego Xfce.
 Summary:	Additional packages for Xfce desktop environment
 Summary(pl.UTF-8):	Dodatkowe pakiety dla środowiska graficznego Xfce
 Group:		X11/Applications
-Requires:	Thunar-volman >= 0.3.80
+Requires:	Thunar-volman >= 0.6.0
 Requires:	Xarchiver >= 0.5.2
 Requires:	ristretto >= 0.0.21
 Requires:	xfburn >= 0.4.1
 Requires:	xfce4-artwork >= 0.1
 Requires:	xfce4-dict >= 0.6.0
-Requires:	xfce4-power-manager >= 0.8.5
+Requires:	xfce4-power-manager >= 1.0.3
 Requires:	xfce4-screenshooter >= 1.7.9
 Requires:	xfce4-taskmanager >= 1.0.0
-Requires:	xfmedia >= 0.9.2
-Requires:	xfmedia-plugins >= 0.9.2
 
 %description extras
 Metapackage to install additional packages for Xfce desktop
@@ -66,10 +62,12 @@ Requires:	xfce4-clipman-plugin >= 1.1.3
 Requires:	xfce4-cpufreq-plugin >= 0.0.1
 Requires:	xfce4-cpugraph-plugin >= 1.0.0
 Requires:	xfce4-datetime-plugin >= 0.6.1
+Requires:	xfce4-dict-plugin
 Requires:	xfce4-diskperf-plugin >= 2.2.0
 Requires:	xfce4-eyes-plugin >= 4.4.0
 Requires:	xfce4-fsguard-plugin >= 0.4.2
 Requires:	xfce4-genmon-plugin >= 3.2
+Requires:	xfce4-linelight-plugin >= 0.1.6
 Requires:	xfce4-mailwatch-plugin >= 1.1.0
 Requires:	xfce4-mount-plugin >= 0.5.5
 Requires:	xfce4-mpc-plugin >= 0.3.5
