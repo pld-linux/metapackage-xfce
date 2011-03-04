@@ -21,6 +21,7 @@ Requires:	xfconf >= 4.8.0
 Requires:	xfdesktop >= 4.8.1
 Requires:	xfwm4 >= 4.8.1
 Requires:	xfwm4-themes >= 4.6.0
+Suggests:	xfce4-notifyd
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
