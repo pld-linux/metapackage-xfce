@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.8.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Requires:	Terminal >= 0.4.6
@@ -17,6 +17,7 @@ Requires:	xfce4-mixer >= 4.6.1
 Requires:	xfce4-panel >= 4.8.1
 Requires:	xfce4-session >= 4.8.0
 Requires:	xfce4-settings >= 4.8.1
+Requires:	xfce4-volumed
 Requires:	xfconf >= 4.8.0
 Requires:	xfdesktop >= 4.8.1
 Requires:	xfwm4 >= 4.8.1
@@ -45,6 +46,11 @@ Requires:	xfce4-dict >= 0.6.0
 Requires:	xfce4-power-manager >= 1.0.3
 Requires:	xfce4-screenshooter >= 1.7.9
 Requires:	xfce4-taskmanager >= 1.0.0
+Suggests:	gigolo
+Suggests:	parole
+Suggests:	postler
+Suggests:	xfmedia
+Suggests:	xfmpc
 
 %description extras
 Metapackage to install additional packages for Xfce desktop
