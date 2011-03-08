@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.8.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Requires:	Terminal >= 0.4.6
@@ -38,6 +38,7 @@ Group:		X11/Applications
 Requires:	Thunar-volman >= 0.6.0
 Requires:	Xarchiver >= 0.5.2
 Requires:	ristretto >= 0.0.21
+Requires:	tumbler
 Requires:	xfburn >= 0.4.1
 Requires:	xfce4-artwork >= 0.1
 Requires:	xfce4-dict >= 0.6.0
@@ -102,7 +103,6 @@ Summary(pl.UTF-8):	Wtyczki do zarządcy plików Thunar
 Group:		X11/Applications
 Requires:	Thunar-archive-plugin >= 0.2.4
 Requires:	Thunar-media-tags-plugin >= 0.1.2
-Requires:	Thunar-thumbnailers >= 0.4.1
 
 %description thunar-plugins
 Plugins for Thunar file manager.
