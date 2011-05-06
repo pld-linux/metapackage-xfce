@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.8.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		X11/Applications
 Requires:	Terminal >= 0.4.6
@@ -23,6 +23,7 @@ Requires:	xfdesktop >= 4.8.1
 Requires:	xfwm4 >= 4.8.1
 Requires:	xfwm4-themes >= 4.6.0
 Requires:	xfce4-notifyd
+Requires:	xscreensaver >= 5.13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
