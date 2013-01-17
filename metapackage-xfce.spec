@@ -2,10 +2,9 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.10.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
-Requires:	Terminal >= 0.4.6
 Requires:	Thunar >= 1.4.0
 Requires:	Thunar-volman >= 0.8.0
 Requires:	exo >= 0.8.0
@@ -23,6 +22,7 @@ Requires:	xfce4-panel >= 4.10.0
 Requires:	xfce4-power-manager >= 1.2.0
 Requires:	xfce4-session >= 4.10.0
 Requires:	xfce4-settings >= 4.10.0
+Requires:	xfce4-terminal >= 0.6.1
 Requires:	xfce4-volumed
 Requires:	xfconf >= 4.10.0
 Requires:	xfdesktop >= 4.10.0
