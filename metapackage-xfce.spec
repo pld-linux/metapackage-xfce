@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.12.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Requires:	exo >= 0.10.4
@@ -27,7 +27,7 @@ Requires:	xfce4-volumed >= 0.1.13
 Requires:	xfce-preferred-applications >= 0.10.4
 Requires:	xfconf >= 4.12.0
 Requires:	xfdesktop >= 4.12.0
-Requires:	xfprint-4.6.1-10
+Requires:	xfprint >= 4.6.1-10
 Requires:	xfwm4 >= 4.12.0
 Requires:	xfwm4-themes >= 4.10.0
 Requires:	xscreensaver >= 5.13
