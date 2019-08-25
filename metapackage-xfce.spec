@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.14.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Requires:	catfish >= 1.4.9
@@ -34,8 +34,12 @@ Requires:	xfwm4-themes >= 4.10.0
 Requires:	xfce4-screensaver >= 0.1.8
 Obsoletes:	gtk-xfce-engine
 Obsoletes:	xfce4-kbdleds-plugin
+Obsoletes:	xfce4-linelight-plugin
+Obsoletes:	xfce4-lock-keys-plugin
+Obsoletes:	xfce4-playercontrol-plugin
 Obsoletes:	xfce4-radio-plugin
 Obsoletes:	xfce4-taskbar-plugin
+Obsoletes:	xfce4-trigger-launcher
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -83,15 +87,12 @@ Requires:	xfce4-eyes-plugin >= 4.5.0
 Requires:	xfce4-fsguard-plugin >= 1.1.1
 Requires:	xfce4-genmon-plugin >= 4.0.2
 Requires:	xfce4-indicator-plugin >= 2.3.4-3
-Requires:	xfce4-linelight-plugin >= 0.1.6-9
-Requires:	xfce4-lock-keys-plugin >= 1.0.0-5
 Requires:	xfce4-mailwatch-plugin >= 1.2.0-6
 Requires:	xfce4-mount-plugin >= 1.1.3
 Requires:	xfce4-mpc-plugin >= 0.5.2
 Requires:	xfce4-netload-plugin >= 1.3.2
 Requires:	xfce4-notes-plugin >= 1.8.1-3
 Requires:	xfce4-places-plugin >= 1.8.1
-Requires:	xfce4-playercontrol-plugin >= 0.3.0-11
 Requires:	xfce4-pulseaudio-plugin >= 0.4.2
 Requires:	xfce4-quicklauncher-plugin >= 1.9.4-9
 Requires:	xfce4-sensors-plugin >= 1.3.92
@@ -100,7 +101,6 @@ Requires:	xfce4-statusnotifier-plugin >= 0.2.1
 Requires:	xfce4-systemload-plugin >= 1.2.3
 Requires:	xfce4-time-out-plugin >= 1.0.3
 Requires:	xfce4-timer-plugin >= 1.7.0
-Requires:	xfce4-trigger-launcher >= 4.2.4.1-8
 Requires:	xfce4-verve-plugin >= 2.0.0
 Requires:	xfce4-wavelan-plugin >= 0.6.1
 Requires:	xfce4-weather-plugin >= 0.10.0
