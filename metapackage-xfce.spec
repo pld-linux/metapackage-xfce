@@ -2,10 +2,9 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.14.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
-Requires:	catfish >= 1.4.9
 Requires:	exo >= 0.12.8
 Requires:	garcon >= 0.6.4
 Requires:	libxfce4ui >= 4.14.0
@@ -58,6 +57,7 @@ Requires:	xfburn >= 0.5.5-2
 Requires:	xfce4-dict >= 0.8.2
 Requires:	xfce4-screenshooter >= 1.9.5
 Requires:	xfce4-taskmanager >= 1.2.2-2
+Suggests:	catfish >= 1.4.9
 Suggests:	gigolo >= 0.5.0
 Suggests:	parole >= 1.0.4
 Suggests:	xfdashboard >= 0.7.5-3
