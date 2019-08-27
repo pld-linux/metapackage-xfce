@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.14.0
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Requires:	exo >= 0.12.8
@@ -36,6 +36,8 @@ Obsoletes:	xfce4-kbdleds-plugin
 Obsoletes:	xfce4-linelight-plugin
 Obsoletes:	xfce4-lock-keys-plugin
 Obsoletes:	xfce4-playercontrol-plugin
+Obsoletes:	xfce4-playercontrol-plugin-audacious
+Obsoletes:	xfce4-playercontrol-plugin-xmms
 Obsoletes:	xfce4-radio-plugin
 Obsoletes:	xfce4-taskbar-plugin
 Obsoletes:	xfce4-trigger-launcher
