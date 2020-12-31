@@ -45,6 +45,7 @@ Obsoletes:	xfce4-taskbar-plugin < 4.16.0
 Obsoletes:	xfce4-trigger-launcher < 4.16.0
 Obsoletes:	xfce4-windowck-plugin < 4.16.0
 Obsoletes:	xfprint < 4.16.0
+Obsoletes:	xfprint-cups < 4.16.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
