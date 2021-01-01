@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.16.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Requires:	exo >= 4.16.0
@@ -82,34 +82,34 @@ Xfce.
 Summary:	Panel plugins for Xfce desktop environment
 Summary(pl.UTF-8):	Wtyczki panelu środowiska graficznego Xfce
 Group:		X11/Applications
-Requires:	xfce4-clipman-plugin >= 1.4.3
+Requires:	xfce4-clipman-plugin >= 1.4.4
 Requires:	xfce4-cpufreq-plugin >= 1.2.1
 Requires:	xfce4-cpugraph-plugin >= 1.1.0
-Requires:	xfce4-datetime-plugin >= 0.8.0
-Requires:	xfce4-dict-plugin >= 0.8.2
-Requires:	xfce4-diskperf-plugin >= 2.6.2
-Requires:	xfce4-eyes-plugin >= 4.5.0
-Requires:	xfce4-fsguard-plugin >= 1.1.1
-Requires:	xfce4-genmon-plugin >= 4.0.2
+Requires:	xfce4-datetime-plugin >= 0.8.1
+Requires:	xfce4-dict-plugin >= 0.8.4
+Requires:	xfce4-diskperf-plugin >= 2.6.3
+Requires:	xfce4-eyes-plugin >= 4.5.1
+Requires:	xfce4-fsguard-plugin >= 1.1.2
+Requires:	xfce4-genmon-plugin >= 4.1.0
 Requires:	xfce4-indicator-plugin >= 2.3.4-3
-Requires:	xfce4-mailwatch-plugin >= 1.2.0-6
-Requires:	xfce4-mount-plugin >= 1.1.3
+Requires:	xfce4-mailwatch-plugin >= 1.3.0
+Requires:	xfce4-mount-plugin >= 1.1.5
 Requires:	xfce4-mpc-plugin >= 0.5.2
 Requires:	xfce4-netload-plugin >= 1.3.2
-Requires:	xfce4-notes-plugin >= 1.8.1-3
+Requires:	xfce4-notes-plugin >= 1.8.1-5
 Requires:	xfce4-places-plugin >= 1.8.1
 Requires:	xfce4-pulseaudio-plugin >= 0.4.2
-Requires:	xfce4-sensors-plugin >= 1.3.92
-Requires:	xfce4-smartbookmark-plugin >= 0.5.1
+Requires:	xfce4-sensors-plugin >= 1.3.95
+Requires:	xfce4-smartbookmark-plugin >= 0.5.2
 Requires:	xfce4-statusnotifier-plugin >= 0.2.1
-Requires:	xfce4-systemload-plugin >= 1.2.3
+Requires:	xfce4-systemload-plugin >= 1.2.4
 Requires:	xfce4-time-out-plugin >= 1.0.3
 Requires:	xfce4-timer-plugin >= 1.7.0
-Requires:	xfce4-verve-plugin >= 2.0.0
-Requires:	xfce4-wavelan-plugin >= 0.6.1
-Requires:	xfce4-weather-plugin >= 0.10.0
+Requires:	xfce4-verve-plugin >= 2.0.1
+Requires:	xfce4-wavelan-plugin >= 0.6.2
+Requires:	xfce4-weather-plugin >= 0.10.2
 Requires:	xfce4-whiskermenu-plugin >= 2.3.3
-Requires:	xfce4-xkb-plugin >= 0.8.1
+Requires:	xfce4-xkb-plugin >= 0.8.2
 
 %description panel-plugins
 Metapackage to install panel plugins for Xfce desktop environment.
