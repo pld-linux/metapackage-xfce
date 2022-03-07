@@ -2,7 +2,7 @@ Summary:	Xfce desktop environment
 Summary(pl.UTF-8):	Środowisko graficzne Xfce
 Name:		metapackage-xfce
 Version:	4.16.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Requires:	exo >= 4.16.0
@@ -14,15 +14,15 @@ Requires:	Thunar >= 4.16.1
 Requires:	Thunar-volman >= 4.16.0
 Requires:	tumbler >= 4.16.0
 Requires:	xfce4-appfinder >= 4.16.0
-Requires:	xfce4-mixer >= 4.11.0-10
 Requires:	xfce4-notifyd >= 0.6.2
 Requires:	xfce4-panel >= 4.16.0
 Requires:	xfce4-panel-profiles >= 1.0.12
 Requires:	xfce4-power-manager >= 4.16.0
+Requires:	xfce4-pulseaudio-plugin >= 0.4.2
 Requires:	xfce4-session >= 4.16.0
 Requires:	xfce4-settings >= 4.16.0
 Requires:	xfce4-terminal >= 0.8.10
-Requires:	xfce4-volumed >= 0.1.13-7
+Requires:	xfce4-volumed-pulse >= 0.2.3
 Requires:	xfce-preferred-applications >= 4.16.0
 Requires:	xfconf >= 4.16.0
 Requires:	xfdesktop >= 4.16.0
@@ -98,7 +98,6 @@ Requires:	xfce4-mpc-plugin >= 0.5.2
 Requires:	xfce4-netload-plugin >= 1.3.2
 Requires:	xfce4-notes-plugin >= 1.8.1-5
 Requires:	xfce4-places-plugin >= 1.8.1
-Requires:	xfce4-pulseaudio-plugin >= 0.4.2
 Requires:	xfce4-sensors-plugin >= 1.3.95
 Requires:	xfce4-smartbookmark-plugin >= 0.5.2
 Requires:	xfce4-statusnotifier-plugin >= 0.2.1
